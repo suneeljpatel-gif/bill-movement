@@ -1,0 +1,158 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    padding: 0;
+    background: #eef5f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    width: 78%;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-top: 6px solid #005fae;
+}
+
+/* ===== HEADER ===== */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #cfe6d8;
+    margin-bottom: 25px;
+}
+
+.logo {
+    height: 72px;
+    padding: 6px;
+    border: 2px solid #005fae;
+    border-radius: 6px;
+    background: #ffffff;
+}
+
+.header h2 {
+    margin: 0;
+    color: #005fae;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* ===== FORM ===== */
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+}
+
+label {
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2e7d32;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 4px;
+    border: 1px solid #b0bec5;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #fdfefe;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #005fae;
+    box-shadow: 0 0 4px rgba(0,95,174,0.3);
+}
+
+/* ===== FULL WIDTH ROW ===== */
+form button {
+    grid-column: span 2;
+    margin-top: 25px;
+    padding: 12px;
+    background: linear-gradient(135deg, #005fae, #0b7bc1);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: linear-gradient(135deg, #004f90, #0969a8);
+}
+
+/* ===== TABLE TITLE ===== */
+h3 {
+    margin-top: 35px;
+    color: #005fae;
+    border-left: 5px solid #2e7d32;
+    padding-left: 10px;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+thead {
+    background: #005fae;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 8px 10px;
+    text-align: center;
+    border: 1px solid #cfd8dc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3fbf6;
+}
+
+tbody tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* ===== ACTION BUTTONS ===== */
+.action-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.edit-btn {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+.delete-btn {
+    background-color: #c62828;
+    color: #ffffff;
+}
+
+.pdf-btn {
+    background-color: #f9a825;
+    color: #ffffff;
+}
+
+/* ===== FOOTER SPACE ===== */
+.footer-space {
+    height: 20px;
+}
